@@ -14,6 +14,7 @@ sub startup {
   $self->helper(mango => sub {
     state $mango = Mango->new($config->{mongouri})
   });
+  $self->types->type(json => 'application/json; charset=utf-8');
 
   # Router
   my $r = $self->routes;

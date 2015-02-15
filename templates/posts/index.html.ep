@@ -18,15 +18,6 @@
     </div>
     <div class="form-group">
       <div class="col-sm-12">
-        <select id="lang" name="lang" size="1" class="form-control">
-          <option value="" disabled="disabled" selected="selected" style="display:none">Language</option>
-          <option>1</option>
-          <option>2</option>
-        </select>
-      </div>
-    </div>
-    <div class="form-group">
-      <div class="col-sm-12">
         <textarea id="post" name="post" class="form-control" rows="30"></textarea>
       </div>
     </div>

@@ -27,6 +27,7 @@ sub show {
     my $self = shift;
     my $stash = $self->stash;
     my $config = $stash->{config};
+    my $format = $stash->{format};
     my $collection = $self->mango->db->collection($config->{collection});
     my $oid = Mango::BSON::ObjectID->new($stash->{oid});
 
@@ -34,10 +35,19 @@ sub show {
         my ($collection, $err, $doc) = @_;
 
         return $self->reply->exception($err) if $err;
-        $self->render(doc => $doc);
+        if($format eq 'json') {
+            # Don't leak secret delete code!
+            delete $doc->{delete};
+            $self->render(json => $doc);
+        } elsif($format eq 'raw') {
+            $self->render(text => $doc->{post}, format => 'txt');
+        } else {
+            $self->render(doc => $doc);
+        }
     });
     $self->render_later();
 }
+
 
 sub delete {
     my $self = shift;
