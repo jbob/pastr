@@ -1,4 +1,4 @@
-package Paster::Controller::Posts;
+package Pastr::Controller::Posts;
 use Mojo::Base 'Mojolicious::Controller';
 
 sub index {

@@ -1,4 +1,4 @@
-package Paster;
+package Pastr;
 use Mojo::Base 'Mojolicious';
 
 use Mango;

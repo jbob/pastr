@@ -1,5 +1,5 @@
 % layout 'default';
-% title 'Welcome to Paster';
+% title 'Welcome to Pastr';
 
 <div class="container">
 
@@ -7,7 +7,7 @@
     % if(my $msg = flash 'msg') {
         <div class="alert alert-success" role="alert"><%= $msg %></div>
     % }
-    <h1>Welcome to Paster</h1>
+    <h1>Welcome to Pastr</h1>
   </div>
 
   <form class="form-horizontal" action="/create">

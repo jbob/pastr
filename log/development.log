@@ -1877,3 +1877,99 @@ Global symbol "$msg" requires explicit package name at template posts/index.html
 [Sun Feb 15 20:21:39 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
 [Sun Feb 15 20:21:42 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
 [Sun Feb 15 20:21:45 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:22:20 2015] [debug] GET "/"
+[Sun Feb 15 20:22:20 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "index"
+[Sun Feb 15 20:22:20 2015] [debug] Rendering template "posts/index.html.ep"
+[Sun Feb 15 20:22:20 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:22:20 2015] [debug] 200 OK (0.014055s, 71.149/s)
+[Sun Feb 15 20:26:29 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:26:41 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:26:50 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:27:08 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:27:17 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:27:20 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:28:00 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:28:16 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:28:21 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:31:59 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:32:10 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:35:19 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:35:31 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:35:52 2015] [debug] GET "/create"
+[Sun Feb 15 20:35:52 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "create"
+[Sun Feb 15 20:35:52 2015] [debug] Template "posts/create.html.ep" not found
+[Sun Feb 15 20:35:52 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:35:52 2015] [debug] 302 Found (0.009595s, 104.221/s)
+[Sun Feb 15 20:35:52 2015] [debug] GET "/54e0f5183724810fcd010000"
+[Sun Feb 15 20:35:52 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:35:52 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:35:52 2015] [debug] Rendering template "posts/show.html.ep"
+[Sun Feb 15 20:35:52 2015] [debug] Rendering template "layouts/code.html.ep"
+[Sun Feb 15 20:35:52 2015] [debug] 200 OK (0.004106s, 243.546/s)
+[Sun Feb 15 20:36:56 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:37:08 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:37:14 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:37:17 2015] [debug] GET "/54e0f5183724810fcd010000"
+[Sun Feb 15 20:37:17 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:37:17 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:37:17 2015] [debug] Rendering template "posts/show.html.ep"
+[Sun Feb 15 20:37:17 2015] [debug] Rendering template "layouts/code.html.ep"
+[Sun Feb 15 20:37:17 2015] [debug] 200 OK (0.010922s, 91.558/s)
+[Sun Feb 15 20:38:40 2015] [debug] GET "/create"
+[Sun Feb 15 20:38:40 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "create"
+[Sun Feb 15 20:38:40 2015] [debug] Template "posts/create.html.ep" not found
+[Sun Feb 15 20:38:40 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:38:40 2015] [debug] 302 Found (0.002299s, 434.972/s)
+[Sun Feb 15 20:38:40 2015] [debug] GET "/54e0f5c03724810fe1010000"
+[Sun Feb 15 20:38:40 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:38:40 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:38:40 2015] [debug] Rendering cached template "posts/show.html.ep"
+[Sun Feb 15 20:38:40 2015] [debug] Rendering cached template "layouts/code.html.ep"
+[Sun Feb 15 20:38:40 2015] [debug] 200 OK (0.002980s, 335.570/s)
+[Sun Feb 15 20:38:47 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:38:51 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:39:23 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:39:32 2015] [debug] GET "/54e0f5c03724810fe1010000"
+[Sun Feb 15 20:39:32 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:39:32 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:39:32 2015] [debug] Rendering template "posts/show.html.ep"
+[Sun Feb 15 20:39:32 2015] [debug] Rendering template "layouts/code.html.ep"
+[Sun Feb 15 20:39:32 2015] [debug] 200 OK (0.013822s, 72.348/s)
+[Sun Feb 15 20:41:32 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:41:47 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:41:53 2015] [debug] GET "/54e0f5c03724810fe1010000"
+[Sun Feb 15 20:41:53 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:41:53 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:41:53 2015] [debug] Rendering template "posts/show.html.ep"
+[Sun Feb 15 20:41:53 2015] [debug] Rendering template "layouts/code.html.ep"
+[Sun Feb 15 20:41:53 2015] [debug] 200 OK (0.010190s, 98.135/s)
+[Sun Feb 15 20:42:03 2015] [debug] GET "/"
+[Sun Feb 15 20:42:03 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "index"
+[Sun Feb 15 20:42:03 2015] [debug] Rendering template "posts/index.html.ep"
+[Sun Feb 15 20:42:03 2015] [debug] Rendering template "layouts/default.html.ep"
+[Sun Feb 15 20:42:03 2015] [debug] 200 OK (0.004233s, 236.239/s)
+[Sun Feb 15 20:42:54 2015] [debug] GET "/create"
+[Sun Feb 15 20:42:54 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "create"
+[Sun Feb 15 20:42:54 2015] [debug] Template "posts/create.html.ep" not found
+[Sun Feb 15 20:42:54 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:42:54 2015] [debug] 302 Found (0.002731s, 366.166/s)
+[Sun Feb 15 20:42:54 2015] [debug] GET "/54e0f6be3724811010010000"
+[Sun Feb 15 20:42:54 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:42:54 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:42:54 2015] [debug] Rendering cached template "posts/show.html.ep"
+[Sun Feb 15 20:42:54 2015] [debug] Rendering cached template "layouts/code.html.ep"
+[Sun Feb 15 20:42:54 2015] [debug] 200 OK (0.001643s, 608.643/s)
+[Sun Feb 15 20:43:12 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:43:39 2015] [debug] GET "/create"
+[Sun Feb 15 20:43:39 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "create"
+[Sun Feb 15 20:43:39 2015] [debug] Template "posts/create.html.ep" not found
+[Sun Feb 15 20:43:39 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:43:39 2015] [debug] 302 Found (0.005971s, 167.476/s)
+[Sun Feb 15 20:43:39 2015] [debug] GET "/54e0f6eb372481101a010000"
+[Sun Feb 15 20:43:39 2015] [debug] Routing to controller "Paster::Controller::Posts" and action "show"
+[Sun Feb 15 20:43:39 2015] [debug] Nothing has been rendered, expecting delayed response
+[Sun Feb 15 20:43:39 2015] [debug] Rendering template "posts/show.html.ep"
+[Sun Feb 15 20:43:39 2015] [debug] Rendering template "layouts/code.html.ep"
+[Sun Feb 15 20:43:39 2015] [debug] 200 OK (0.005712s, 175.070/s)
+[Sun Feb 15 20:43:56 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/paster/paster.conf"
+[Sun Feb 15 20:45:39 2015] [debug] Reading configuration file "/home/markus/Code/perl/paste/pastr/pastr.conf"

@@ -1,12 +1,12 @@
-% layout 'default';
-% title 'Welcome to Paster';
+% layout 'code';
+% title 'Welcome to Pastr';
 
 <div class="container">
 
   <div class="page-header">
-    <h1>Welcome to Paster</h1>
+    <h1>Welcome to Pastr</h1>
   </div>
 
   <h2><%= $doc->{title} %></h2>
-  <pre><%= $doc->{post} %></pre>
+  <pre class="prettyprint linenums"><%= $doc->{post} %></pre>
 </div>
