@@ -1,6 +1,7 @@
 # Pastr
 
-Simple pastebin clone written with Perl/Mojolicious/MongoDB
+Simple pastebin clone written with Perl/Mojolicious/MongoDB. See it in action at
+[http://pastr.markusko.ch](http://pastr.markusko.ch)
 
 ## Dependencies
 
