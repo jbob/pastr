@@ -19,10 +19,14 @@ sub startup {
   # Router
   my $r = $self->routes;
 
-  $r->get('/')->to('posts#index');
-  $r->any('/create')->to('posts#create');
-  $r->get('/:oid')->to('posts#show');
-  $r->any('/delete/:oid/:delete')->to('posts#delete');
+  $r->get('/')->to('posts#index')->name('index');
+  $r->post('/')->to('posts#create');
+  $r->get('/show/:oid')->to('posts#show');
+  $r->get('/delete')->to('posts#delete');
+  $r->any('/delete/:oid/:delete')->to('posts#delete', oid => '', delete => '');
+  $r->any('/search/:q')->to('posts#search', q => '');
+  $r->get('/latest')->to('posts#latest');
+  $r->get('/about')->to('posts#about');
 
 }
 

@@ -1,0 +1,9 @@
+% layout 'default';
+
+<dl>
+% my $docs = stash 'docs';
+% for my $doc(@{$docs}) {
+  <dt><a href="/show/<%= $doc->{'_id'} %>"><%= $doc->{title} %></a></dt>
+  <dd><pre class="prettyprint linenums"><%= $doc->{post} %></pre></dd>
+% }
+</dl>

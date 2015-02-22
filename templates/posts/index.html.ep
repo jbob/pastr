@@ -1,36 +1,25 @@
 % layout 'default';
-% title 'Welcome to Pastr';
 
-<div class="container">
-
-  <div class="page-header">
-    % if(my $msg = flash 'msg') {
-        <div class="alert alert-success" role="alert"><%= $msg %></div>
-    % }
-    <h1>Welcome to Pastr</h1>
+<form class="form-horizontal" method="POST">
+  %= csrf_field
+  <div class="form-group">
+    <div class="col-sm-12">
+      <input type="text" name="title" id="title" class="form-control" placeholder="Title"/>
+    </div>
   </div>
-
-  <form class="form-horizontal" action="/create">
-    <div class="form-group">
-      <div class="col-sm-12">
-        <input type="text" name="title" id="title" class="form-control" placeholder="Title"/>
-      </div>
+  <div class="form-group">
+    <div class="col-sm-12">
+      <textarea id="post" name="post" class="form-control" placeholder="Code" required="required" rows="30" style="font-family:monospace"></textarea>
     </div>
-    <div class="form-group">
-      <div class="col-sm-12">
-        <textarea id="post" name="post" class="form-control" rows="30"></textarea>
-      </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-2">
+      <input type="text" name="delete" id="delete" class="form-control" placeholder="Delete code?" />
     </div>
-    <div class="form-group">
-      <div class="col-sm-12">
-        <label for="delete">Delete Code?</label>
-        <input type="text" name="delete" id="delete" />
-      </div>
+  </div>
+  <div class="form-group">
+    <div class="col-sm-12">
+      <button type="submit" class="btn btn-default">Submit</button>
     </div>
-    <div class="form-group">
-      <div class="col-sm-12">
-        <button type="submit" class="btn btn-default">Submit</button>
-      </div>
-    </div>
-  </form>
-</div>
+  </div>
+</form>

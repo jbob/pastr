@@ -1,0 +1,26 @@
+% layout 'default';
+
+<div class="jumbotron centerjumbotron">
+  <h1>Proudly made with</h1>
+  <div class="row">
+    <div class="col-md-3">
+      <a href="https://www.perl.org/"><img src="/img/logo-perl.png" /></a>
+    </div>
+    <div class="col-md-3">
+      <a href="http://mojolicio.us"><img src="/img/logo-mojo.png" /></a>
+    </div>
+    <div class="col-md-3">
+      <a href="https://www.mongodb.org/"><img src="/img/logo-mongodb.png" /></a>
+    </div>
+    <div class="col-md-3">
+      <a href="http://www.vim.org/"><img src="/img/logo-vim.png" /></a>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md12">
+        <p><a class="btn btn-default" href="https://github.com/jbob/XXX">
+            Github repository
+        </a></p>
+    </div>
+  </div>
+</div>
