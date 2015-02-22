@@ -29,11 +29,19 @@
   </head>
   <body>
 
-    <nav class="navbar">
+    <nav class="navbar navbar-default">
       <div class="container-fluid">
-        <span class="navbar-brand"><%= config 'title' %></span>
-        <div class="collapse navbar-collapse">
-          <ul class="nav navbar-nav nav-pills">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mynavbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand"><%= config 'title' %></span>
+        </div>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="nav navbar-nav">
             <li class="<%= 'active' if stash->{action} eq 'index' %>">
               <a href="<%= url_for 'index' %>">Home</a>
             </li>

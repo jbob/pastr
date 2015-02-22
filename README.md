@@ -15,7 +15,7 @@ Simple pastebin clone written with Perl/Mojolicious/MongoDB. See it in action at
 Simply clone or download the the repository, adjust the pastr.conf file and
 execute either:
 
-    $ morbo -f script/pastr (for development), or
+    $ morbo script/pastr (for development), or
     $ hypnotoad -f script/pastr (for production)
 
 The app will then listen on either 127.0.0.1:3000 (development) or 0.0.0.0:8080
