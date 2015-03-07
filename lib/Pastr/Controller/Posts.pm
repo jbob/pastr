@@ -49,7 +49,7 @@ sub show {
         } elsif($format eq 'raw') {
             $self->render(text => $doc->{post}, format => 'txt');
         } else {
-            $self->render(doc => $doc)
+            $self->render(doc => $doc);
         }
     });
     $self->render_later;
