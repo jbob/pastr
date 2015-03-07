@@ -1,6 +1,13 @@
 % layout 'default';
 
 <h2><%= $doc->{title} %></h2>
-<a href="/show/<%= $doc->{'_id'}%>.json">View as JSON</a>
-<a href="/show/<%= $doc->{'_id'}%>.raw">View RAW</a>
+  <a href="/show/<%= $doc->{'_id'} %>.json" class="btn btn-default">View as JSON</a>
+  <a href="/show/<%= $doc->{'_id'} %>.raw" class="btn btn-default">View RAW</a>
 <pre class="prettyprint linenums"><%= $doc->{post} %></pre>
+<form class="form-inline" action="<%= url_for 'delete' %>" method="POST">
+  <input type="hidden" name="oid" id="oid" value="<%= $doc->{'_id'} %>" />
+  <div class="form-group">
+    <input type="text" name="delete" id="delete" class="form-control" placeholder="Delete code" />
+  </div>
+  <button type="submit" class="btn btn-default">Delete</button>
+</form>

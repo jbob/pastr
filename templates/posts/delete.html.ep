@@ -1,7 +1,7 @@
 % layout 'default';
 % title 'Pastr';
 
-<form class="form-horizontal" action="/delete" method="POST">
+<form class="form-horizontal" method="POST">
   <div class="form-group">
     <div class="col-sm-12">
       <input type="text" name="oid" id="oid" class="form-control" placeholder="ID"/>
