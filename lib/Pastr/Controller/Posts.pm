@@ -42,6 +42,7 @@ sub show {
         my ($collection, $err, $doc) = @_;
 
         return $self->reply->exception($err) if $err;
+        return $self->reply->not_found if not $doc;
         if($format eq 'json') {
             # Don't leak secret delete code!
             delete $doc->{delete};
