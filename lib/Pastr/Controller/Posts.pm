@@ -7,6 +7,9 @@ sub create {
     my $config = $stash->{config};
     my $collection = $self->mango->db->collection($config->{collection});
     my $validation = $self->validation;
+    warn $self->req->headers->user_agent;
+
+    return $self->redirect_to('/') if $self->req->headers->user_agent =~ m/MSIE 6.0/;
 
     return $self->render(text => 'Bad CSRF token!', status => 403)
         if $validation->csrf_protect->has_error('csrf_token');
@@ -142,6 +145,14 @@ sub latest {
     });
     $self->render_later;
 }
+
+sub fancyerror {
+    my $self = shift;
+    # Just for shits and giggles
+    1/0;
+}
+
+
 
 
 1;

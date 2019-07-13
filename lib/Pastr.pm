@@ -27,7 +27,7 @@ sub startup {
   $r->any('/search/:q')->to('posts#search', q => '');
   $r->get('/latest')->to('posts#latest');
   $r->get('/about')->to('posts#about');
-
+  $r->get('/fancyerror')->to('posts#fancyerror');
 }
 
 1;

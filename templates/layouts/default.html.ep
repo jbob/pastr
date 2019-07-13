@@ -54,6 +54,9 @@
             <li class="<%= 'active' if stash->{action} eq 'about' %>">
               <a href="<%= url_for 'about' %>">About</a>
             </li>
+            <li class="<%= 'active' if stash->{action} eq 'fancyerror' %>">
+              <a href="<%= url_for 'fancyerror' %>">Awesome fancy error page</a>
+            </li>
           </ul>
           <form class="navbar-form navbar-right" role="search" action="/search">
             <div class="form-group">
